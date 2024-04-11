@@ -27,6 +27,10 @@ Walter Shields for creating the sTunes Database.
 # Custom Queries for sTunes Database
 This repository contains custom SQL queries I designed to extract useful insights from the sTunes Database. The database schema includes tables such as albums, artists, customers, employees, genres, invoice_items, invoices, media_types, playlist_track, playlists, and tracks.
 
-1. Find the number of invoices per customer:
+1. Find the number of invoices per customer
 
 ![Screenshot 2024-04-11 at 12 25 04 PM](https://github.com/minerbra/Tunester-Database-GUI/assets/62312099/8357d166-01d1-4fdb-9b45-22ff31d3c8f5)
+
+2. Identifies the top-selling genres based on total revenue generated from track sales
+
+![Screenshot 2024-04-11 at 12 47 53 PM](https://github.com/minerbra/sTunes-SQLiteDatabase-GUI/assets/62312099/1485e80d-2071-4e55-9851-666afe6f2ea2)
