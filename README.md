@@ -1,4 +1,4 @@
-# Tunester-Database-GUI
+# sTunes-SQLiteDatabase-GUI
 
 # Reference
 SQL (Structured Query Language) using the sTunes database from SQL QuickStart Guide.
