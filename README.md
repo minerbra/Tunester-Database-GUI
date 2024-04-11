@@ -4,22 +4,26 @@
 SQL (Structured Query Language) using the sTunes database from SQL QuickStart Guide.
 
 # Content
-Chapter 1: Introduction to SQL <br>
-Learn about SQL and its importance in database management. <br>
-Chapter 2: Retrieving Data with SELECT <br>
-Understand the SELECT statement and how to retrieve data from tables. <br>
-Chapter 3: Filtering Data with WHERE <br>
-Explore the WHERE clause to filter data based on specified conditions. <br>
-Chapter 4: Sorting Data with ORDER BY <br>
-Learn how to sort query results using the ORDER BY clause. <br>
-Chapter 5: Grouping Data with GROUP BY <br>
-Understand how to group data using the GROUP BY clause. <br>
-Chapter 6: Modifying Data with INSERT, UPDATE, DELETE <br>
-Dive into manipulating data in tables using INSERT, UPDATE, and DELETE. <br>
-Chapter 7: Joining Tables with INNER JOIN, LEFT JOIN, RIGHT JOIN <br>
-Master the art of joining tables to retrieve data from multiple sources. <br>
-Chapter 8: Advanced SQL Concepts <br>
-Explore advanced SQL concepts such as subqueries, indexes, and transactions. <br>
+Chapter 1: Understanding Database Structure <br>
+Introduces the concept of a relational database. <br>
+<br> Chapter 2: SQL Tools and Strategies <br>
+Introduces free downloadable SQLite software and provides a sample SQL database. <br>
+<br> Chapter 3: Exploring a Database in SQLite <br>
+Explore and navigate the overall structure of a data. <br>
+<br> Chapter 4: Getting Started with Queries <br>
+SELECT, FROM, ORDER BY and LIMIT. <br>
+<br> Chapter 5: Turning Data into Information <br>
+WHERE clause, LIKE, DATE() function, AND/OR operators, and CASE statement. <br>
+<br> Chapter 6: Working with Multiple Tables <br>
+INNER JOIN, LEFT JOIN, and RIGHT JOIN. <br>
+<br> Chapter 7: Using Functions <br>
+Introduces a collection of calculation tools including aggregate, string and date functions. <br>
+<br> Chapter 8: Subqueries <br>
+Introduces the concept of nesting queries and using the DISTINCT keyword <br>
+<br> Chapter 9: Views <br>
+Introduces virtual tables as views. <br>
+<br> Chapter 10: Data Manipulation Language <br>
+INSERT, UPDATE and DELETE keywords. <br>
 
 # Acknowledgements
 Walter Shields for creating the sTunes Database.
