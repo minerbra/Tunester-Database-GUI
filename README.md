@@ -15,7 +15,7 @@ Learn how to sort query results using the ORDER BY clause. <br>
 Chapter 5: Grouping Data with GROUP BY
 Understand how to group data using the GROUP BY clause. <br>
 Chapter 6: Modifying Data with INSERT, UPDATE, DELETE
-Dive into manipulating data in tables using INSERT, UPDATE, and DELETE statements. <br>
+Dive into manipulating data in tables using INSERT, UPDATE, and DELETE. <br>
 Chapter 7: Joining Tables with INNER JOIN, LEFT JOIN, RIGHT JOIN
 Master the art of joining tables to retrieve data from multiple sources. <br>
 Chapter 8: Advanced SQL Concepts
