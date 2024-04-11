@@ -29,16 +29,4 @@ This repository contains custom SQL queries I designed to extract useful insight
 
 1. Find the number of invoices per customer:
 
-SELECT <br>
-    c.CustomerId, <br>
-    c.FirstName, <br>
-    c.LastName, <br>
-    COUNT(i.InvoiceId) AS num_invoices <br>
-FROM <br>
-    customers c <br>
-JOIN <br>
-    invoices i ON c.CustomerId = i.CustomerId <br>
-GROUP BY <br>
-    c.CustomerId, c.FirstName, c.LastName <br>
-ORDER BY <br>
-    num_invoices DESC; <br>
+![Screenshot 2024-04-11 at 12 25 04 PM](https://github.com/minerbra/Tunester-Database-GUI/assets/62312099/8357d166-01d1-4fdb-9b45-22ff31d3c8f5)
