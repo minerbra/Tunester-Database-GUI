@@ -1,7 +1,7 @@
 # Tunester-Database-GUI
 
 # Overview
-SQL (Structured Query Language) using the sTunes database created by Walter Shields.
+SQL (Structured Query Language) using the sTunes database from SQL QuickStart Guide.
 
 # Content
 Chapter 1: Introduction to SQL <br>
@@ -20,3 +20,6 @@ Chapter 7: Joining Tables with INNER JOIN, LEFT JOIN, RIGHT JOIN <br>
 Master the art of joining tables to retrieve data from multiple sources. <br>
 Chapter 8: Advanced SQL Concepts <br>
 Explore advanced SQL concepts such as subqueries, indexes, and transactions. <br>
+
+# Acknowledgements
+Walter Shields for creating the sTunes database.
