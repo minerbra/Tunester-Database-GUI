@@ -24,21 +24,21 @@ Explore advanced SQL concepts such as subqueries, indexes, and transactions. <br
 # Acknowledgements
 Walter Shields for creating the sTunes Database.
 
-# Custom Queries for sTunes database
+# Custom Queries for sTunes Database
 This repository contains custom SQL queries I designed to extract useful insights from the sTunes Database. The database schema includes tables such as albums, artists, customers, employees, genres, invoice_items, invoices, media_types, playlist_track, playlists, and tracks.
 
 1. Find the number of invoices per customer:
 
-SELECT
-    c.CustomerId,
-    c.FirstName,
-    c.LastName,
-    COUNT(i.InvoiceId) AS num_invoices
-FROM
-    customers c
-JOIN
-    invoices i ON c.CustomerId = i.CustomerId
-GROUP BY
-    c.CustomerId, c.FirstName, c.LastName
-ORDER BY
-    num_invoices DESC;
+SELECT <br>
+    c.CustomerId, <br>
+    c.FirstName, <br>
+    c.LastName, <br>
+    COUNT(i.InvoiceId) AS num_invoices <br>
+FROM <br>
+    customers c <br>
+JOIN <br>
+    invoices i ON c.CustomerId = i.CustomerId <br>
+GROUP BY <br>
+    c.CustomerId, c.FirstName, c.LastName <br>
+ORDER BY <br>
+    num_invoices DESC; <br>
