@@ -22,4 +22,23 @@ Chapter 8: Advanced SQL Concepts <br>
 Explore advanced SQL concepts such as subqueries, indexes, and transactions. <br>
 
 # Acknowledgements
-Walter Shields for creating the sTunes database.
+Walter Shields for creating the sTunes Database.
+
+# Custom Queries for sTunes database
+This repository contains custom SQL queries I designed to extract useful insights from the sTunes Database. The database schema includes tables such as albums, artists, customers, employees, genres, invoice_items, invoices, media_types, playlist_track, playlists, and tracks.
+
+1. Find the number of invoices per customer:
+
+SELECT
+    c.CustomerId,
+    c.FirstName,
+    c.LastName,
+    COUNT(i.InvoiceId) AS num_invoices
+FROM
+    customers c
+JOIN
+    invoices i ON c.CustomerId = i.CustomerId
+GROUP BY
+    c.CustomerId, c.FirstName, c.LastName
+ORDER BY
+    num_invoices DESC;
