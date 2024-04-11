@@ -1,6 +1,6 @@
 # Tunester-Database-GUI
 
-# Overview
+# Reference
 SQL (Structured Query Language) using the sTunes database from SQL QuickStart Guide.
 
 # Content
